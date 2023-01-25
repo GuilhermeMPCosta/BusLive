@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BusLives</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="menu-closed">
+            <div class="menu ">
+                <span><img onclick="abre()" class="tresbarras" src="images/threebars_106419.svg" alt="mais"></span>
+                <span><p>BUSLIVE</p></span>
+                <span><img class="onibus" src="images/onibus.svg" alt=""></span>
+            </div>
+            <div id="select" class="menu_options closed">
+                <select class="rotas" name="rotas" id="rotas">
+                    <option value="" disabled selected>Selecione uma opção</option>
+                    <option value="1">Morada</option>
+                    <option value="2">Do sol</option>
+                </select>
+                <span class="busca"><img class="lupa" src="images/searchmagnifierinterfacesymbol1_79893.svg" alt=""></span>
+            </div>
+        </div>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14854.037561671319!2d-45.94899025!3d-21.4485206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1674479471505!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </main>
+</body>
+<script src="main.js"></script>
+</html>
