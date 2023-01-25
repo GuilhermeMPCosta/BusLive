@@ -46,6 +46,11 @@ span .tresbarras{
     height: 150%;
     position: relative;
     top: 2px;
+    transition: 1s all ease;
+}
+
+.tresbarrasvirado{
+    transform: rotate(90deg);
 }
 
 .onibus{
