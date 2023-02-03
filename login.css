@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+:root{
+    --background:#60ebe8;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Itim', cursive;
+}
+
+body{
+    background-color: var(--background);
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_login{
+
+    line-height: 2em;
+}
+
+.texto_login{
+    width: 100%;
+    height: 20%;
+}
+
+.login_contet{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+    margin-top: -10rem;
+}
+
+.title_login{
+    text-align: center;
+}
+
+h1{
+    
+    font-size: 3rem;
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+.button{
+    width: 100%;
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.onibus{
+    margin-bottom: 5rem;
+}
+
+input{
+    padding-left:1rem ;
+}
+
+#modal{
+    width: 50%;
+    height: 30%;
+    position: absolute;
+    background-color: gray;
+    margin-top: -50%;
+    display: none;
+}
+
+.loading{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quadrado{
+    width: 40%;
+    height: 30%;
+    background-color: transparent;
+    border: 4px solid #f7f7f7;
+    border-top-color: aquamarine;
+    border-radius: 50%;
+    animation: rodar 1s linear infinite;
+}
+
+.label{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+@keyframes rodar {
+    to{
+        transform: rotate(1turn);
+    }
+}
