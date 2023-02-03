@@ -2,11 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 body{
     height: 100vh;
     width: 100vw;
+    overflow: hidden;
 }
 
 main{
@@ -85,6 +87,7 @@ span .tresbarras{
 }
 .open{
     margin-top: 0px !important;
+    
 }
 
 .rotas{
@@ -109,3 +112,4 @@ span .tresbarras{
     max-height: 100%;
     cursor: pointer;
 }
+

@@ -15,3 +15,18 @@ function abre(){
     } 
     
 }
+
+function loading(){
+    let a = document.querySelector("#modal").style.display;
+    if (a!="block"){
+        document.querySelector("#modal").style.display='block'
+        redirect_Page()
+    }
+}
+
+function redirect_Page () {
+    var tID = setTimeout(function () {
+        window.location.href = "index.html";
+        window.clearTimeout(tID);
+    }, 1000)
+}

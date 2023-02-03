@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/login.css">
+    <script src="/main.js"></script>
+</head>
+<body class="login">
+    <div class="login_contet">
+        <H1 class="title_login">Buslive</H1>
+        <img class="onibus" src="/images/onibus.svg" alt="" srcset="">
+        <form class="form_login" action="">
+            <label for="nome">Nome do Usuario:</label>
+            <input type="text" id="nome" class="texto_login" autocomplete="off" >
+            <label for="senha">Senha:</label>
+            <input type="password" class="texto_login" id="senha"><span class="show_password"></span>
+            <input onclick="loading()" class="button" type="button" id="envia" value="ENVIAR">
+        </form>
+    </div>
+
+    <div id="modal">
+        <div class="loading">
+            <div class="quadrado"></div>
+        <div class="label">Loading</div>
+    </div>
+</div>
+</body>
+</html>
